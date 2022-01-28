@@ -40,16 +40,31 @@ p {
 #foto-daniella{
     float: left;
     padding: 10px;
-    background-color: black;
-    left: 50px;
+    background-color: rgb(176, 101, 179);
 }
 
 #habilidades{
     margin-top: 80px;
+    position: absolute;
+    top: 600px;
+    left: 40%;
+
 }
 
 #descricao-daniella{
     height: 430px;
     overflow: auto;
+    margin-left: 20px;
 }
 
+#foto-descricao{
+    position: absolute;
+    left: 18%;
+    z-index: 1;
+}
+
+#redes{
+    position: absolute;
+    top: 900px;
+    left: 40%;
+}
