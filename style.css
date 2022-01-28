@@ -1,0 +1,33 @@
+.cursiva {
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(212, 138, 190);
+    font-size: 20px;
+}
+
+#foto {
+    border-radius: 100%;
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+}
+
+p {
+    font-weight: 700;
+    text-align: justify;
+    text-align: center;
+}
+
+.lista, div, #port, #link {
+    text-align: center;
+}
+
+#port, #link {
+    font-size: 1.2em;
+}
+
