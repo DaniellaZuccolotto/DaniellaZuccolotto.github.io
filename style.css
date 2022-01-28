@@ -29,6 +29,7 @@ div, #port, #link {
 
 #port, #link {
     font-size: 1.2em;
+    margin: 10px;
 }
 
 .lista{
