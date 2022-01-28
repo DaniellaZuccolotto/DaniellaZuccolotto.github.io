@@ -23,11 +23,16 @@ p {
     text-align: center;
 }
 
-.lista, div, #port, #link {
+div, #port, #link {
     text-align: center;
 }
 
 #port, #link {
     font-size: 1.2em;
+}
+
+.lista{
+    list-style: none;
+    text-align: center;
 }
 
