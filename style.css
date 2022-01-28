@@ -23,7 +23,7 @@ p {
     text-align: center;
 }
 
-div, #port, #link {
+#port, #link {
     text-align: center;
 }
 
@@ -35,5 +35,21 @@ div, #port, #link {
 .lista{
     list-style: none;
     text-align: center;
+}
+
+#foto-daniella{
+    float: left;
+    padding: 10px;
+    background-color: black;
+    left: 50px;
+}
+
+#habilidades{
+    margin-top: 80px;
+}
+
+#descricao-daniella{
+    height: 430px;
+    overflow: auto;
 }
 
