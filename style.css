@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .cursiva {
     font-family: cursive;
     font-weight: bold;
@@ -6,15 +11,13 @@
 }
 
 body {
-    background-color: rgb(212, 138, 190);
+    background-image: url(imagendeceu.jpg);
     font-size: 20px;
+    background-size: cover;
 }
 
 #foto {
     border-radius: 100%;
-    border-style: groove;
-    border-color: black;
-    border-width: 5px;
 }
 
 p {
@@ -39,8 +42,7 @@ p {
 
 #foto-daniella{
     float: left;
-    padding: 10px;
-    background-color: rgb(176, 101, 179);
+    top: 150px;
 }
 
 #habilidades{
@@ -48,23 +50,36 @@ p {
     position: absolute;
     top: 600px;
     left: 40%;
-
-}
-
-#descricao-daniella{
-    height: 430px;
-    overflow: auto;
-    margin-left: 20px;
 }
 
 #foto-descricao{
     position: absolute;
-    left: 18%;
+    left: 25%;
     z-index: 1;
+    padding: 10px;
+    background-position: center;
 }
 
 #redes{
     position: absolute;
-    top: 900px;
+    top: 950px;
     left: 40%;
+}
+
+#descricao-daniella{
+    height: 420px;
+    overflow: auto;
+    margin-left: 20px;
+    width: 400px;
+    position: absolute;
+    left: 95%;
+}
+
+.li{
+    padding: 4px;
+    background-color: pink;
+    border: 1px white solid;
+    margin: 5px;
+    border-radius: 10px;
+    background-position: center;
 }
